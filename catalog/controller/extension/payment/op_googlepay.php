@@ -88,7 +88,7 @@ class ControllerExtensionPaymentOPGooglePay extends Controller {
 			$data['order_notes'] = $order_notes;
 			
 			//支付方式
-			$methods = "";
+			$methods = "GooglePay";
 			$data['methods'] = $methods;
 			
 			//账单人名
