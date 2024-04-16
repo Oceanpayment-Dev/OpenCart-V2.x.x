@@ -88,7 +88,7 @@ class ControllerExtensionPaymentOPApplePay extends Controller {
 			$data['order_notes'] = $order_notes;
 			
 			//支付方式
-			$methods = "";
+			$methods = "ApplePay";
 			$data['methods'] = $methods;
 			
 			//账单人名
